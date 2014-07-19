@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<style type="text/css">
+		.header{height: 100px;background: #000;}
+		.footer{height:100px;background: pink;}
+	</style>
+</head>
+<body>
+	<%= render :partial => "header" %>
+	<%= yield %>
+	<%= render :partial => "footer" %>
+</body>
+</html>
